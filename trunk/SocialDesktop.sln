@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialDesktop", "SocialDesktop\SocialDesktop.csproj", "{432DF69B-C6E4-4BD0-B6A7-7E51723ED9D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZunePlatform", "ZunePlatform\ZunePlatform.csproj", "{DC4958CC-5E5B-4DF0-BAEA-330C896CE0DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PFunctions", "P2PFunctions\P2PFunctions.csproj", "{B7A7CA23-05BA-4411-A9AE-E22430D072FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XVAR", "XVAR\XVAR.csproj", "{7E4118CE-0F83-4EAF-A9A7-FD7697C30EE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{432DF69B-C6E4-4BD0-B6A7-7E51723ED9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432DF69B-C6E4-4BD0-B6A7-7E51723ED9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432DF69B-C6E4-4BD0-B6A7-7E51723ED9D4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{432DF69B-C6E4-4BD0-B6A7-7E51723ED9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432DF69B-C6E4-4BD0-B6A7-7E51723ED9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432DF69B-C6E4-4BD0-B6A7-7E51723ED9D4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DC4958CC-5E5B-4DF0-BAEA-330C896CE0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4958CC-5E5B-4DF0-BAEA-330C896CE0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4958CC-5E5B-4DF0-BAEA-330C896CE0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4958CC-5E5B-4DF0-BAEA-330C896CE0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A7CA23-05BA-4411-A9AE-E22430D072FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A7CA23-05BA-4411-A9AE-E22430D072FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A7CA23-05BA-4411-A9AE-E22430D072FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A7CA23-05BA-4411-A9AE-E22430D072FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4118CE-0F83-4EAF-A9A7-FD7697C30EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4118CE-0F83-4EAF-A9A7-FD7697C30EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4118CE-0F83-4EAF-A9A7-FD7697C30EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4118CE-0F83-4EAF-A9A7-FD7697C30EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

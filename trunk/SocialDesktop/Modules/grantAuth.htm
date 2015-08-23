@@ -1,0 +1,30 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Authorize $url to install modules</title>
+        <script type="text/javascript">
+            function pageload() {
+                document.getElementById('url').innerHTML = document.referrer;
+            }
+            function allow() {
+                window.location = 'http://idw.xsf-bind.ids:3299/getDynamicResource.xsf?module=OPlugin&auth=$auth&url=$url';
+            }
+            function decline() {
+                window.location ='$url?OAuth=fail';
+            }
+        </script>
+	</head>
+	<body onload="pageload()">
+	<h3>Are you sure you want to allow $title to access your Social Desktop?</h3>
+    <hr />
+    $title is requesting the following permissions:
+
+    <bl><li>Access to your basic information (First name, last name, screen name, e-mail 
+            address ($email)) <li>Permission to download Social Plugins and display a User Account 
+            Control or SUDO permission dialog to gain administrative priveledges necessary 
+            to install these social plugins</li></bl>
+            <br /><b><u>If you Allow; $url will have access to the information/priveledges listed above</u></b>
+            <br />
+            <input type="button" value="Allow" onclick="allow()" /><input type="button" value="Decline" onclick="decline()" />
+	</body>
+</html>

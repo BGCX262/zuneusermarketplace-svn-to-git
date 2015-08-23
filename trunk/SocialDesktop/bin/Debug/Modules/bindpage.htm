@@ -1,0 +1,17 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Bind to Social Desktop</title>
+        <script type="text/javascript">
+            function pageload() {
+                //Send message to cross-domain receiver, which routes to root window
+                document.getElementById('iframe').src = window.location.hash.substring(1, window.location.hash.length);
+
+            
+            }
+        </script>
+	</head>
+	<body onload="pageload()">
+	<iframe id="iframe"></iframe>
+	</body>
+</html>

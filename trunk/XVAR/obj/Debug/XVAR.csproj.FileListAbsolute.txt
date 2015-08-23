@@ -1,0 +1,5 @@
+C:\Users\Brian Bosak\Documents\Visual Studio 2008\Projects\SocialDesktop\zuneusermarketplace\XVAR\bin\Debug\XVAR.dll
+C:\Users\Brian Bosak\Documents\Visual Studio 2008\Projects\SocialDesktop\zuneusermarketplace\XVAR\bin\Debug\XVAR.pdb
+C:\Users\Brian Bosak\Documents\Visual Studio 2008\Projects\SocialDesktop\zuneusermarketplace\XVAR\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Brian Bosak\Documents\Visual Studio 2008\Projects\SocialDesktop\zuneusermarketplace\XVAR\obj\Debug\XVAR.dll
+C:\Users\Brian Bosak\Documents\Visual Studio 2008\Projects\SocialDesktop\zuneusermarketplace\XVAR\obj\Debug\XVAR.pdb

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlatformLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:PlatformLibrary.IDesktop.getDesktopDirectory">
+            <summary>
+            Gets the desktop directory
+            </summary>
+            <returns>The path to the desktop</returns>
+        </member>
+        <member name="M:PlatformLibrary.IDesktop.getDesktopBackground">
+            <summary>
+            Gets the desktop background image
+            </summary>
+            <returns>Gets the image that is the background of the desktop</returns>
+        </member>
+        <member name="M:PlatformLibrary.IDesktop.setDesktopBackground(System.Drawing.Image)">
+            <summary>
+            Changes the desktop background image
+            </summary>
+            <param name="background">The iomage to set it to</param>
+        </member>
+        <member name="P:PlatformLibrary.IDesktop.platformSupportsBackgroundRead">
+            <summary>
+            Gets a value indicating whether or not the platform supports reading the desktop background image
+            </summary>
+        </member>
+        <member name="P:PlatformLibrary.IDesktop.platformSupportsBackgroundWrite">
+            <summary>
+            Gets a value indicating whether or not the platform supports writing the desktop background image.
+            </summary>
+        </member>
+        <member name="E:PlatformLibrary.IWindowManager.onInit">
+            <summary>
+            Fired when the DWM initializes
+            </summary>
+        </member>
+        <member name="F:PlatformLibrary.platformInformation.Architecture">
+            <summary>
+            Indicates the processor architecture
+            </summary>
+        </member>
+        <member name="F:PlatformLibrary.platformInformation.Desktop">
+            <summary>
+            Stores information regarding the system's desktop
+            </summary>
+        </member>
+        <member name="F:PlatformLibrary.platformInformation.DWM">
+            <summary>
+            The Desktop Window Manager
+            </summary>
+        </member>
+        <member name="M:PlatformLibrary.IPicture.CreateInstance">
+            <summary>
+            Creates an instance of this control compatible with all platforms
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:PlatformLibrary.IPicture.Default">
+            <summary>
+            Gets or sets the default implementation for this class
+            </summary>
+        </member>
+        <member name="P:PlatformLibrary.IButton.Default">
+            <summary>
+            Gets or sets the default implementation for this class
+            </summary>
+        </member>
+    </members>
+</doc>
